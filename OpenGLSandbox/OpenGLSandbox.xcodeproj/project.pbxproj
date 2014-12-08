@@ -12,6 +12,7 @@
 		23A371AF1A35668B005192DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23A371AE1A35668B005192DB /* Images.xcassets */; };
 		23A371B21A35668B005192DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23A371B01A35668B005192DB /* Main.storyboard */; };
 		23A371BE1A35668B005192DB /* OpenGLSandboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A371BD1A35668B005192DB /* OpenGLSandboxTests.swift */; };
+		23A371C81A356794005192DB /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A371C71A356794005192DB /* OpenGL.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		23A371B71A35668B005192DB /* OpenGLSandboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenGLSandboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23A371BC1A35668B005192DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23A371BD1A35668B005192DB /* OpenGLSandboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenGLSandboxTests.swift; sourceTree = "<group>"; };
+		23A371C71A356794005192DB /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23A371C81A356794005192DB /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +60,7 @@
 		23A3719C1A35668B005192DB = {
 			isa = PBXGroup;
 			children = (
+				23A371C71A356794005192DB /* OpenGL.framework */,
 				23A371A71A35668B005192DB /* OpenGLSandbox */,
 				23A371BA1A35668B005192DB /* OpenGLSandboxTests */,
 				23A371A61A35668B005192DB /* Products */,
